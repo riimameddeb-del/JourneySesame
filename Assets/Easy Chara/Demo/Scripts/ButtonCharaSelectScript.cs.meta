@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c43fcc5e1671e3844a52f8d7c9563641
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 334126
+  packageName: "Easy Chara \u2013 Hisa Teacher 2D Character Collection"
+  packageVersion: 1.3
+  assetPath: Assets/Easy Chara/Demo/Scripts/ButtonCharaSelectScript.cs
+  uploadId: 952912
