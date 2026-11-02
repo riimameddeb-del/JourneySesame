@@ -81,12 +81,10 @@ public class PageManager : MonoBehaviour
         AllerLevel();
     }
 
+    // Branché sur le bouton Quit de l'accueil.
+    // Dans le navigateur, recharge la page ; dans l'éditeur, arrête le jeu ; sinon quitte l'application.
     public void QuitterJeu()
     {
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-        Application.Quit();
-#endif
+        global::QuitterJeu.Quitter();
     }
 }
